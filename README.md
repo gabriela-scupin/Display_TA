@@ -34,4 +34,7 @@ Para baixar e executar este projeto em sua máquina local, siga os passos abaixo
 2. Abra o seu terminal (CMD, PowerShell ou Git Bash).
 3. Execute o comando de clonagem:
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone [https://github.com/gabriela-scupin/Display_TA](https://github.com/gabriela-scupin/Display_TA)
+
+
+   

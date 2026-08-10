@@ -1,0 +1,93 @@
+/*reset dos elementos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+html{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    color:#030249
+}
+
+.body-container {
+
+    background-color: rgb(185, 217, 253);
+}
+
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(253, 188, 232);
+    text-align: center;
+}
+
+.header-container a{
+    background-color: rgb(219, 255, 172);
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+
+    margin-top: 10px;
+    margin-left: 15px;
+
+    padding: 10px 25px;
+
+    border: 2px solid #030249;
+
+
+    border-radius: 20px;
+
+}
+
+/*deecta o movimento do mouse*/
+.header-container a:hover{
+    border-color: #ff32e4;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+.section01{
+
+    width: 400px;
+    height: 400px;
+    border: 2px solid #fff;
+    margin: 15px auto; 
+    padding-left: 25px;
+}
+
+.section01 h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.item-lista{
+    line-height: 25px;
+    margin-top: 15px;
+    color: rgb(38, 26, 90);
+}
+
+.section02{
+ 
+
+    line-height: 15px;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 35px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.section02 p{
+    font-family: Verdana, Geneva, sans-serif;
+    color:#923a11
+}
