@@ -1,0 +1,20 @@
+{
+  "name": "display_ta",
+  "version": "1.0.0",
+  "description": "Estudos para utilizar a propriedade display do css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "endereço http"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "display"
+  ],
+  "author": "gabriela scupin",
+  "license": "ISC"
+}
