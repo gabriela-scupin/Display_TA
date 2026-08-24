@@ -1,0 +1,28 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.conteudo-principal{
+    display: flex;
+    border:2px solid;
+    width: 1180px;
+    height: 650px;
+    margin: 0 auto;
+    
+}
+
+.conteudo-principal__esquerdo{
+    display:flex;
+    width: 450px;
+    height: 650px;
+}
+
+h3{
+
+    color: rgb(133, 211, 241);
+}
