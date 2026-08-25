@@ -1,0 +1,45 @@
+
+/*importação dos arquivos e estilos*/
+
+@import url(./reset.css);
+@import url(./design-system.css);
+
+
+
+.color-section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.color-section__sidebar{
+
+}
+
+.color-section_title{
+
+}
+
+.color-section__menu{
+
+}
+
+.color-section__link{
+
+}
+
+.color-section__link--active{
+
+}
+
+.color-section__link--active:hover{
+
+}
+
+.color-section__bar{
+
+}
+
+.color-section__bar:hover{
+
+}
