@@ -7,6 +7,14 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+:root{
+    --bg-body: #facada;
+    --fonte-padrao:#c05e5e;
+
+    --bg-logo:#7a1839;
+    
+}
+
 html{
     font-family: Verdana, Geneva, sans-serif;
 }
