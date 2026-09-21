@@ -75,3 +75,93 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
+.color-section__content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
+}
+
+.color-section__palette{
+    display: flex;
+    height: 43vh;
+}
+
+.color-section__faq{
+    flex-grow: 1;
+    background-color: var(--faq-bg);
+    padding: 35px 40px;
+    border-top: 1px solid var(--ui-border);
+    display: flex;
+    flex-direction: column;
+}
+
+.color-section__faq-title{
+    font-size: 22px;font-weight: 700;
+    color: var(--faq-text-title);
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.color-section__faq-item{
+    background-color: var(--faq-card-bg);
+    border: 1px solid var(--faq-border);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+/* Estilo do cabeçalho da pergunta (summary) */
+.color-section__faq-question {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--faq-text-question);
+    cursor: pointer;
+    
+    /* Troca de ícone via CSS puro 
+    Esconde a seta padrão nos navegadores padrão */
+    
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+/* Remove a seta nativa no Safari e navegadores WebKit */
+.color-section__faq-question::-webkit-details-marker {
+    display: none;
+}
+
+/* Novo Ícone customizado (Criado com CSS Puro) */
+.color-section__faq-question::after {
+    content: "✦"; /* Ícone em formato de estrela/brilho para combinar com o neon */
+    font-size: 16px;
+    color: var(--faq-border-neon-glow);
+    transition: transform 0.9s ease, color 0.9s ease;
+}
+
+/* Animação do ícone ao abrir o details */
+.color-section__faq-item[open] .color-section__faq-question::after {
+    transform: rotate(180deg) scale(1.3);
+    color: #ffffff;
+}
+/* Mudança de cor no hover da pergunta */
+.color-section__faq-item:hover .color-section__faq-question {
+    color: #ffffff;
+}
+
+/* Estilo e transições na Resposta */
+.color-section__faq-answer {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--faq-text-answer);
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    transition: color 0.3s ease;
+}
+
+/* Efeito de mudança de cor no hover do texto da resposta */
+.color-section__faq-answer:hover {
+    color: #ffffff;
+}
