@@ -99,3 +99,33 @@ html{
     font-family: Verdana, Geneva, sans-serif;
     color:#923a11
 }
+
+.faq{
+    width: 100%;
+    border: 2px solid;
+    margin-left: 25px;
+
+}
+
+.faq details{
+    background: #030249;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.faq summary{
+    background: #ff32e4;
+    list-style: none;
+
+}
+
+.faq summary:hover{
+    cursor: pointer;
+
+}
+
+.faq p{
+    color: #c05e5e;
+    line-height: 25px;
+}

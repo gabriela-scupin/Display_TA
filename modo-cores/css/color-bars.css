@@ -1,0 +1,57 @@
+.color-section__bar--rgb-1{
+    background-color: var(--color-rgb-1) ;
+}
+.color-section__bar--rgb-2{
+    background-color: var(--color-rgb-2) ;
+}
+.color-section__bar--rgb-3{
+    background-color: var(--color-rgb-3) ;
+}
+.color-section__bar--rgb-4{
+    background-color: var(--color-rgb-4) ;
+}
+.color-section__bar--rgb-5{
+    background-color: var(--color-rgb-5) ;
+}
+.color-section__bar--rgb-6{
+    background-color: var(--color-rgb-6) ;
+}
+.color-section__bar--cmyk-1{
+    background-color: var(--color-cmyk-1) ;
+}
+.color-section__bar--cmyk-2{
+    background-color: var(--color-cmyk-2) ;
+}
+.color-section__bar--cmyk-3{
+    background-color: var(--color-cmyk-3) ;
+}
+.color-section__bar--cmyk-4{
+    background-color: var(--color-cmyk-4) ;
+}
+.color-section__bar--cmyk-5{
+    background-color: var(--color-cmyk-5) ;
+}
+.color-section__bar--cmyk-6{
+    background-color: var(--color-cmyk-6) ;
+}
+.color-section__bar--netflix-1{
+    background-color: var(--color-netflix-1) ;
+}
+.color-section__bar--netflix-2{
+    background-color: var(--color-netflix-2) ;
+}
+.color-section__bar--netflix-3{
+    background-color: var(--color-netflix-3) ;
+}
+.color-section__bar--google-1{
+    background-color: var(--color-google-1) ;
+}
+.color-section__bar--google-2{
+    background-color: var(--color-google-2) ;
+}
+.color-section__bar--google-3{
+    background-color: var(--color-google-3) ;
+}
+.color-section__bar--google-4{
+    background-color: var(--color-google-4) ;
+}

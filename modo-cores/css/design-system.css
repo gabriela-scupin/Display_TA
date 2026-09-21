@@ -34,5 +34,14 @@
     --color-google-3: #34A853;
     --color-google-4: #EA4335;
     
-    --paleta-01:
+    --faq-bg: #0d1b3e;
+    --faq-card-bg: #16264f;
+    --faq-card-hover-bg: #1e3266;
+    --faq-border: #2a3e75;
+    --faq-border-neon: #7500c8;
+    --faq-border-neon-glow: #9d26ef;
+    --faq-text-title: #ffffff;
+    --faq-text-question: #e2e8f0;
+    --faq-text-answer: #94a3b8;
+    
 }

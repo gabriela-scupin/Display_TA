@@ -3,6 +3,7 @@
 
 @import url(/modo-cores/css/reset.css);
 @import url(/modo-cores/css/design-system.css);
+@import url(./color-bars.css);
 
 
 
@@ -74,4 +75,3 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
-.color-se
