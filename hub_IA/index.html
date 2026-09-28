@@ -13,19 +13,42 @@
         body{
             background-color: rgb(153, 0, 255);
         }
+        
+        .container{
+            width: 100%;
+            display: flex;
+            gap: 15px;
+        }
 
-        @media screen and (min-width: 480px) and (max-width: 768px) {
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+
+        @media (min-width: 768px) {
+        body {
+                background-color: rgb(238, 144, 210);
+            }
+        }
+        @media (max-width: 480px) {
         body {
                 background-color: lightgreen;
-  }
-}
+            }
+        }
 
 
 
     </style>
 </head>
 <body>
-    
+    <h1>Testes com @media query</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 
 </body>
 </html>
