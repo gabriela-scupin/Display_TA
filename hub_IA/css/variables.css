@@ -1,0 +1,39 @@
+:root {
+    /* Paleta de Cores */
+    --color-bg-body: #f4f8fb;
+    --color-bg-transparent: rgba(255, 255, 255, 0.9);
+    --color-bg-card: #ffffff;
+    --color-primary: #0284c7;
+
+    /* Azul Tech Principal */
+    --color-primary-hover: #0369a1;
+    --color-secondary: #0d9488;
+
+    /* Verde Teal Secundário */
+    /* Textos e Bordas */
+    --color-text-main: #0f172a;
+
+    /* Grafite Escuro */
+    --color-text-muted: #475569;
+
+    /* Cinza Neutro */
+    --color-border: #e2e8f0;
+    --color-nav-list-bg: #f1f5f9;
+    --color-nav-link-hover: #ffffff;
+
+    /* Tipografia */
+    --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --font-size-sm: 0.875rem;
+
+    /* 14px */
+    --font-size-base: 1rem;
+
+    /* 16px */
+    --font-size-xl: 1.875rem;
+    
+    /* 30px */
+    /* Layout e Estrutura */
+    --header-height: 10vh;
+    --footer-height: 8vh;
+    --section-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
