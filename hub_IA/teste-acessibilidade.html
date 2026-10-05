@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste PX vs REM</title>
+  <style>
+    /* o elemento raiz assume 100% da preferencia do navegador */
+    html {
+      font-size: 62.5%;
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 20px;
+      background-color: #f8fafc;
+    }
+
+  body{
+    font-size: 1.6rem;
+  }
+
+    .caixa {
+      padding: 1.6rem;
+      margin-bottom: 2px;
+      border-radius: 8px;
+    }
+
+    /* texto travado em pixels */
+    .caixa-px {
+      background-color: #fee2e2;
+      border: 2px solid #ef4444;
+      font-size: 1.6rem;
+    }
+
+    /* texto dinamico em rem */
+    .caixa-rem {
+      background-color: #dcfce7;
+      border: 2px solid #22c55e;
+      font-size: 1rem;
+    }
+
+    .c-container{
+      font-size: 0.0875rem;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Teste de Acessibilidade: PX vs REM</h1>
+  <p>Altere o tamanho da fonte nas configurações do seu navegador para ver a diferença:</p>
+
+  <div class="caixa caixa-px">
+    <strong>Texto em PX (16px):</strong> Rígido. Não se adapta às preferências do usuário.
+  </div>
+
+  <div class="caixa caixa-rem">
+    <strong>Texto em REM (1rem):</strong> Acessível. Escala automaticamente com o navegador.
+  </div>
+
+  <div class="container">
+    <p class="c-container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cupiditate aliquid dolore nesciunt corrupti quis rem
+      assumenda quaerat eum, non vero neque molestiae velit amet iste eveniet placeat modi aut.
+    </p>
+  </div>
+
+
+</body>
+
+</html>

@@ -37,3 +37,4 @@
     --footer-height: 8vh;
     --section-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
+

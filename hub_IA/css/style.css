@@ -1,7 +1,26 @@
+@import url(./variables.css);
+@import url(./reset.css);
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background-color: var(--color-bg-transparent);
+    border-bottom: 2px solid var(--color-border);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+}
 
 .header__brand{
-
+    display: flex;
+    align-items: center;
 }
 
 .header__title{
@@ -20,4 +39,3 @@
 
 }
 
-.nav__link:houver
