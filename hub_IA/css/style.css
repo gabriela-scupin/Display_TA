@@ -118,3 +118,13 @@
     object-fit: cover;
 }
 
+.faq{
+    height: var(--section-height);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    scroll-margin-top: var(--header-height);
+}
