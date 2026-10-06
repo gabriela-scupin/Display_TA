@@ -1,5 +1,15 @@
 @media (max-width: 500px){
+    body {
+        padding-top: 170px;
+        padding-bottom: 60px;
+    }
 
+    .header {
+        height: auto;
+        padding: 10px 8px;
+        flex-direction: column;
+        gap: 8px;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 767px){
