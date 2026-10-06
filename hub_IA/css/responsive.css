@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 500px) {
     body {
         padding-top: 170px;
         padding-bottom: 60px;
@@ -10,16 +10,129 @@
         flex-direction: column;
         gap: 8px;
     }
+
+    .header__title{
+        font-size: 2.4rem;
+    }
+
+    .nav__list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+        padding: 4px;
+    }
+
+    .nav__item{
+        flex: 1 1 calc(33.333% - 6px) ;
+        text-align: center;
+    }
+
+    .nav__link{
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 6px 4px;
+        display: block;
+        white-space: nowrap;
+    }
+
+    .section-ia, .faq{
+        height: auto;
+        min-height: auto;
+        padding: 30px 16px;
+        scroll-margin-top: 170px;
+    }
+
+    .section-ia__title{
+        font-size: 2.1rem;
+    }
+
+    .section-ia__text{
+        font-size: 1.4rem;
+    }
+
+    .section-ia__container, 
+    .section-ia--reverse .section-ia__container{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer{
+        height: auto;
+        padding: 8px 12px;
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 767px){
+    body{
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
 
+    .header{
+        height: auto;
+        padding: 12px ;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav__list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        padding: 6px;
+    }
+
+    .nav__link{
+        font-size: 1.3rem;
+        padding: 6px 12px ;
+    }
+
+    .section-ia,
+    .faq {
+        height: auto;
+        min-height: auto;
+        padding: 40px 5%;
+        scroll-margin-top: 130px;
+    }
+
+    .section-ia__container,
+    .section-ia--reverse .section-ia__container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer{
+        height: auto;
+        padding: 10px 5%;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
 }
 
 @media (min-width:768px) and (max-width: 1023px){
+    .section-ia__container{
+        gap: 24px;
 
+    }
+
+    .nav__link{
+        padding: 8px 12px;
+        font-size: var(--font-size-sm);
+    }
+
+    .section-ia__title{
+        font-size: 2.4rem;
+    }
 }
 
 @media (min-width: 1024px){
-
+    .section-ia__container{
+        max-width: 1100px;
+    }
 }
